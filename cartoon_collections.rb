@@ -10,7 +10,7 @@ array.collect do |names|
 end 
 
 def long_planeteer_calls(array)
-  if 
+array.any? { |call| call.length > 4 }
   
   
   
